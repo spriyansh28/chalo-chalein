@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script
+		  src="https://code.jquery.com/jquery-3.1.1.min.js"
+		  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		  crossorigin="anonymous">
+		</script>
+		<link rel="stylesheet" type="text/css" href="./app.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<script src="./bundle.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-wPhSditxIw4NCaDAJBmIQyekLLnsJII&libraries=geometry"></script>
+		<title>Helper</title>
+	</head>
+	<body>
+		<div class="tabs">
+			<span id="route-tab" class="active">Traveling Salesman</span>
+		</div>
+		<div id="route">
+			<!-- <h1 class="title">Traveling Salesman</h1> -->
+			<div class="instructions">
+				<span>
+					<h3>
+					Routes:
+					<select id="presets" name="presets">
+						<option value="2">Inter cities</option>
+						<option value="1">Inter State</option>
+						<option value="3">Inter countries</option>
+						<option value="0">Free</option>
+					</h3>
+					</select>
+				</span>
+
+				<div class="buttons sliders">
+					<span>
+						<input id="num-evals" value="67" type="range" min="0" max="100" /> <br />
+					</span>
+				</div>
+				<div class="buttons sliders">
+			</div>
+			<div class="buttons">
+				<button id="runGoog">Find Route</button>
+				<button id="clear-map">Clear Markers</button>
+			</div>
+			</div>
+
+			<div id="map"></div>
+
+		</div>
+
+			<canvas id="canvas" width="1000" height="500"></canvas>
+
+	</body>
+</html>
