@@ -1,4 +1,4 @@
-# chalo-chalein
+# Chalo Chalein
 This project aims to design and visualize an algorithm that can be used in the website ‘Chalo Chalien’ for finding the shortest path through some waypoints. 
 Chalo Chalein is an innovative & user-friendly interface that allows students to have the company of their trusted college mates as well as save the fast depleting natural resources.
 ![Screenshot 2023-07-20 093800](https://github.com/spriyansh28/chalo-chalein/assets/80885325/5a4eed29-de52-41f7-86ea-83b7ec8d040c)
